@@ -1,0 +1,6 @@
+'' ATZ
+SAY 'Setting APN\n'
+OK 'AT+CGDCONT=3,"IPV4V6","internet"'
+SAY 'Dialing...'
+OK 'ATD*99#'
+CONNECT ''
